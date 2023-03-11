@@ -1,0 +1,267 @@
+body {
+    background-color: rgb(98, 58, 31);
+    background-image: url('images/wood-pattern.png'); 
+    height: 100vh; 
+    width: 100vw;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+.smartphone-side-buttons {
+    position: relative;
+    width: 309px;
+    height: 645px;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: -10px -10px 20px; 
+}
+
+.button-volume-up {
+    position: absolute; 
+    top: 120px; 
+    left: 0px;
+    width: 3px; 
+    height: 40px; 
+    background-color: #d1bc99; 
+    border-radius: 5px; 
+}
+
+.button-volume-up:hover {
+    box-shadow: -2px -2px 5px #000000;
+}
+
+.button-volume-down {
+    position: absolute; 
+    top: 170px; 
+    left: 0px;
+    width: 3px; 
+    height: 40px; 
+    background-color: #d1bc99; 
+    border-radius: 5px;
+}
+
+.button-volume-down:hover {
+    box-shadow: -2px -2px 5px #000000;
+}
+
+.button-on-off {
+    position: absolute; 
+    top: 120px; 
+    right: 0px;
+    width: 3px; 
+    height: 40px; 
+    background-color: #d1bc99; 
+    border-radius: 5px; 
+}
+
+.button-on-off:hover {
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.button-above-volume {
+    position: absolute; 
+    top: 80px; 
+    left: 0px;
+    width: 3px; 
+    height: 20px; 
+    background-color: #d1bc99; 
+    border-radius: 5px; 
+}
+
+.button-above-volume:hover {
+    box-shadow: 2px 2px 5px #000000;
+}
+  
+.smartphone {
+    position: relative; 
+    left: 2px;
+    width: 300px; 
+    height: 640px; 
+    background-color: #fff4f4; 
+    border: 3px solid #a98039;
+    border-radius: 40px; 
+    overflow: hidden;
+}
+    
+#mobileScreen {
+    background-image: url('images/tbilisi.jpg');
+    position: absolute; 
+    top: 75px;
+    left: 10px; 
+    width: 280px; 
+    height: 490px; 
+    background-color: #1b1919; 
+    border-radius: 3px;
+}
+
+.screen-items {
+    position: absolute;
+}
+
+.mobile-operator {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+    color: white;
+    display: flex;
+}
+
+.signal-circle{
+    position: relative;
+    top: 1px;
+    margin-right: -4px;
+}
+
+.operator {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-size: 8pt;
+}
+
+.battery {
+    position: absolute;
+    left: 265px;
+    top: 76px;
+}
+
+.upper-bar {
+    position: absolute; 
+    top: 83px; 
+    left: 140px;
+    width: 25px; 
+    height: 5px; 
+    background-color: #b1afaf; 
+    border-radius: 5px; 
+}
+
+.clock {
+    position: absolute;
+    left: 85px;
+    top: 135px;
+    font-family: "Urbanist", sans-serif;
+    font-size: 44pt;
+    color: #FFFFFF;
+}
+
+.date {
+    position: absolute;
+    left: 87px;
+    top: 205px;
+    max-width: max-content;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.slide-to-unlock {
+    position: absolute;
+    left: 80px;
+    top: 495px;
+    display: flex;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+.angle {
+    position: relative;
+    top: -8px;
+    margin-right: -7px;
+}
+
+.slide-to-unlock-text {
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #000000, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.camera-icon {
+    position: absolute;
+    left: 262px;
+    top: 542px;
+}
+
+.lower-bar {
+    position: absolute; 
+    top: 551px; 
+    left: 140px;
+    width: 25px; 
+    height: 5px; 
+    background-color: #b1afaf; 
+    border-radius: 5px; 
+}
+
+.button {
+    position: absolute; 
+    bottom: 10px; 
+    left: calc(50% - 25px); 
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    background-image: 
+        linear-gradient(#fff4f4, #fff4f4), 
+        radial-gradient(circle at top, #fff4f4, #fff4f4, #6d4f27, #6d4f27 ,#422f19);
+    transform: rotate(-60deg);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    display: inline-block;
+}
+
+.main-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff4f4;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    box-shadow: 1px 1px 5px #000000;
+}
+
+.camera1 {
+    position: absolute; 
+    top: 15px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 5px; 
+    height: 5px;
+    border: 2px solid #FFFFFF; 
+    border-radius: 50%;
+    background-color: #000000; 
+}
+
+.camera2 {
+    position: absolute; 
+    top: 31px; 
+    left: 30%; 
+    transform: translateX(-50%); 
+    width: 10px; 
+    height: 10px; 
+    border: 2px solid #FFFFFF; 
+    border-radius: 50%; 
+    background-color: #000000; 
+}
+
+.speaker {
+    position: absolute;
+    top: 35px; 
+    left: 40%;
+    width: 60px; 
+    height: 5px; 
+    background-color: #4a4a4a; 
+    border-radius: 5px; 
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('fonts/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100;
+}
