@@ -1,2 +1,4 @@
 # js-school-hw1
-Quantori JavaScript school 1st home assignment
+
+Quantori JavaScript school homework
+- task 1: https://georgiyponomarev.github.io/js-school-hw1/
