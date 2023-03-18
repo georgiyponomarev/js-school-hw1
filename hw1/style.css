@@ -8,6 +8,18 @@ body {
     align-items: center;
   }
 
+.main-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-page-link {
+    color: #fff4f4;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11pt;    
+}
+
 .smartphone-side-buttons {
     position: relative;
     width: 309px;
