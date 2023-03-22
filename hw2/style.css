@@ -1,0 +1,224 @@
+/* color variables */
+:root {
+    --bg-dark: #000000;
+    --bg-light: #ffffff;
+    --color-1: #ffff00;
+    --color-2: #ff0000;
+    --color-3: #009000;
+    --color-4: #d116d1;
+    --color-5: #4682b4;
+    --color-6: #dc143c;
+    --color-7: #00ffff;
+}
+ 
+body {
+    background-color: var(--bg-dark);
+    overflow: hidden;
+}
+
+.main-page {
+    text-align: center;
+}
+
+.main-page-link {
+    color: #fff4f4;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11pt;    
+}
+
+.controls {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    color: #111111;
+    background-color: #ffff00;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #ffc400;
+    cursor: pointer;
+}
+
+.box {
+    position: absolute;
+    width: 97vw;
+    height: 80vh;
+    border: #9e9e8c 5px solid;
+}
+
+.dvd {
+    background-color: var(--color-1);
+    position: absolute; 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    animation: anim-0 5s forwards infinite alternate-reverse linear;
+}
+
+.pchela {
+    background-color: var(--color-1);
+    position: absolute; 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    display: none;
+    animation: anim-1 10s forwards infinite alternate-reverse linear;
+ }
+
+ .rzhenie {
+    background-color: var(--color-1);
+    position: absolute; 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    display: none;
+    animation: anim-2 15s forwards infinite alternate-reverse linear;
+ }
+
+
+ /* animation */
+ @keyframes anim-0 {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: var(--color-1);
+    }
+
+    20% {
+        top: 30%;
+        left: calc(97vw - 100px);
+        background-color: var(--color-2);
+        border-radius: 30%;
+    }
+
+    40% {
+        top: 0;
+        left: 70%;
+        background-color: var(--color-3);
+        border-radius: 15%;
+    }
+
+    60% {
+        top: calc(80vh - 100px);
+        left: 50vw;
+        background-color: var(--color-4);
+        border-radius: 5%;
+    }
+
+    80% {
+        top: 70%;
+        left: 0;
+        background-color: var(--color-5);
+        border-radius: 15%;
+    }
+
+    100% {
+        top: 20vh;
+        left: calc(97vw - 100px);
+        background-color: var(--color-6);
+        border-radius: 30%;
+    }
+}
+
+@keyframes anim-1 {
+    0% {
+        top: calc(80vh - 100px);
+        left: calc(97vw - 100px);
+        background-color: var(--color-1);
+    }
+
+    25% {
+        top: 60%;
+        left: 0;
+        background-color: var(--color-2);
+        border-radius: 20%;
+    }
+
+    50% {
+        top: 0;
+        left: 40%;
+        background-color: var(--color-3);
+        border-radius: 10%;
+    }
+
+    75% {
+        top: 20%;
+        left: calc(97vw - 100px);
+        background-color: var(--color-4);
+        border-radius: 20%;
+    }
+
+    100% {
+        top: calc(80vh - 100px);
+        left: 80%;
+        background-color: var(--color-5);
+        border-radius: 40%;
+    }
+
+}
+
+@keyframes anim-2 {
+    0% {
+        top: 0;
+        left: calc(97vw - 100px);
+        background-color: var(--color-1);
+    }
+
+    16% {
+        top: calc(80vh - 100px);
+        left: 10%;
+        background-color: var(--color-3);
+        border-radius: 40%;
+    }
+
+    33% {
+        top: 60%;
+        left: calc(97vw - 100px);
+        background-color: var(--color-6);
+        border-radius: 20%;
+    }
+
+    50% {
+        top: 40%;
+        left: 0;
+        background-color: var(--color-2);
+        border-radius: 10%;
+    }
+
+    67% {
+        top: calc(80vh - 100px);
+        left: calc(97vw - 100px);
+        background-color: var(--color-5);
+        border-radius: 20%;
+    }
+
+    84% {
+        top: 0;
+        left: 10%;
+        background-color: var(--color-4);
+        border-radius: 40%;
+    }
+
+    100% {
+        top: 20vh;
+        left: calc(97vw - 100px);
+        background-color: var(--color-7);
+        border-radius: 40%;
+    }
+}
+
+
