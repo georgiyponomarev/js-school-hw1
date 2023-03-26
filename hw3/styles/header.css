@@ -1,0 +1,75 @@
+.header {
+    position: relative;
+    /* Header */
+    width: 343px;
+    height: 40px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.header__branding {
+    position: absolute;
+    width: 99px;
+    height: 30px;
+    left: 0px;
+    top: calc(50% - 30px/2);
+}
+
+.header__branding-logo {
+    position: absolute;
+    width: 99.2px;
+    height: 22.25px;
+    left: 0px;
+    top: 5.26px;
+}
+
+.header__avatar {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    top: calc(50% - 40px/2);
+
+    border-radius: 38.6667px;
+}
+
+.header__avatar-image-placeholder {
+    /* Image Placeholder */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    border: 1.5px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+.header__avatar-photo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 66.6667px;
+}
+
+.header__avatar-indicator {
+    /* Indicator */
+
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 1px;
+    top: 31px;
+
+    background: #20C997;
+    border: 1.33333px solid #FFFFFF;
+    border-radius: 66.6667px;
+}

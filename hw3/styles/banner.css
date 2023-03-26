@@ -1,0 +1,166 @@
+.banner {
+    /* Banner */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    padding: 32px;
+
+    background: #282828;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 2; */
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.banner__content {
+    /* Content */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    /* padding: 32px; */
+
+    /* width: 279px; */
+    height: 68px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 0; */
+    align-self: stretch;
+    /* flex-grow: 1; */
+}
+
+.banner__content-heading {
+    /* width: 279px; */
+    /* height: 38px; */
+
+    /* Button/Xlarge */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+    /* identical to box height, or 146% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 0; */
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.banner__content-subheading {
+    /* Get up to 10TB of storage for a limited time */
+    /* width: 279px;
+    height: 44px; */
+
+    /* Text/14px/Regular */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 1; */
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.banner__button {
+    /* Button */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 2px;
+
+    width: 139px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border-radius: 39px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+}
+
+.banner__button-icon-placeholder {
+    /* Icon/bolt */
+    width: 18px;
+    height: 18px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 0; */
+    flex-grow: 0;
+}
+
+.banner__button-text {
+    width: 59px;
+    height: 24px;
+
+    /* Button/XSmall */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+
+    color: #282828;
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+}
+
+.banner__button-arrow-right {
+    display: none;
+    width: 18px;
+    height: 18px;
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 2; */
+    flex-grow: 0;
+}

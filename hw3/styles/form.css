@@ -1,0 +1,138 @@
+.form {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 343px;
+height: 46px;
+
+/* Inside auto layout */
+
+flex: none;
+/* order: 1; */
+align-self: stretch;
+flex-grow: 0;
+}
+
+.form__title {
+    display: none;
+    /* Form/Elements/Title */
+    width: 343px;
+    height: 22px;
+
+    /* Text/14px/Semibold */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    /* Text Blue */
+    color: #5F6980;
+
+    /* Inside auto layout */
+    flex: none;
+    /* order: 0; */
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form__input {
+    /* Input */
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+
+    width: 343px;
+    height: 46px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 1; */
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form__icon-plus-input {
+    /* Icon+Input */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 283px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 0; */
+    flex-grow: 1;
+}
+
+.form__icon-search {
+    /* Icon/search */
+    width: 20px;
+    height: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 0; */
+    flex-grow: 0;
+}
+
+.form__email {
+    /* Your email */
+    width: 255px;
+    height: 22px;
+
+    /* Text/14px/Regular */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    color: #9D9FA2;
+    /* Inside auto layout */
+
+    flex: none;
+    /* order: 1; */
+    flex-grow: 1;
+}
+
+.form__icon-arrow-right {
+
+    display: none;
+    /* Icon/arrow-right */
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+}
