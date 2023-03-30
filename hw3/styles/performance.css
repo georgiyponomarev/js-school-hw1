@@ -1,6 +1,5 @@
 .performance {
     /* Elements/Chart 2 */
-    /* Auto layout */
 
     display: flex;
     flex-direction: column;
@@ -20,14 +19,15 @@
 }
 
 .performance__header {
-    /* Elements/Card Header */
-
+    display: flex;
+    align-items: center;
     box-sizing: border-box;
+
+    width: 343px;
+    height: 54px;
 
     background: #FFFFFF;
     border-bottom: 1px solid #EAECF0;
-
-    /* Inside auto layout */
 
     flex: none;
     /* order: 0; */
@@ -36,11 +36,11 @@
 }
 
 .performance__header-text {
-    /* Installed apps */
-
     position: absolute;
+    width: 122px;
+    height: 26px;
     left: 16px;
-    top: calc(50% - 26px/2);
+    /* top: calc(50% - 26px/2); */
 
     /* Text/16px/Semibold */
 
@@ -48,24 +48,17 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
+    line-height: 26px;
     /* identical to box height, or 162% */
+
 
     color: #282828;
 }
 
 .performance__header-dots {
-    /* position: relative; */
+    position: absolute;
     width: 20px;
     height: 20px;
     right: 16px;
-    top: calc(50% - 20px/2);
-}
-
-.performance__graph-image {
-    /* graph */
-    position: relative;
-    left: 0%;
-    right: 0%;
-    top: 33.2%;
-    bottom: 0%
+    /* top: calc(50% - 20px/2); */
 }
